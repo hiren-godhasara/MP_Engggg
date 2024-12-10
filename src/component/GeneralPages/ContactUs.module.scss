@@ -1,0 +1,242 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // margin-top: 90px;
+    padding-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+.head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #a71e22;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.backImg {
+    position: relative;
+}
+
+.backImg::before {
+    content: '';
+    position: absolute;
+    top: -80px;
+    right: 0;
+    bottom: -90px;
+    left: 0;
+    // background-image: url('../../imageFolder/dryfruit-vector.png');
+    opacity: 0.1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.leftSection {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.rightSection {
+    flex: 1;
+    margin-left: 20px;
+}
+
+
+
+.h1 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: 25px;
+}
+
+.leftSection p {
+    margin-bottom: 10px;
+}
+
+.div {
+    margin-top: 15px;
+}
+
+.num {
+    display: flex;
+    margin: 0 !important;
+}
+
+.code {
+    width: 25% !important;
+    margin-right: 5px;
+}
+
+.firstName {
+    width: 100% !important;
+    margin-right: 5px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+
+
+    label {
+        margin-top: 10px;
+        color: #144950;
+    }
+
+    textarea,
+    input {
+        width: 100%;
+        padding: 8px;
+        border-radius: 3px;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        color: black;
+    }
+
+    input:focus {
+        border-color: #144950;
+    }
+
+    input:hover {
+        border-color: #144950;
+    }
+
+    textarea:hover {
+        border-color: #144950;
+
+    }
+
+
+    button {
+        padding: 10px 20px;
+        width: 100%;
+        margin-right: 20px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #a71e22;
+        // color: #676767;
+
+        // color: #a71e22;
+
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.6s, color 0.6s;
+        margin-top: 30px;
+    }
+
+    button:hover {
+        background-color: #676767;
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+.buttonContainer {
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rightSection {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .leftSection {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .h1 {
+        position: relative;
+        margin-top: -25px !important;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .rightSection {
+        width: 95%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .leftSection {
+        width: 95%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 460px) {
+    .main {
+        // width: 95vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .leftSection,
+    .rightSection {
+        font-size: 14px;
+    }
+
+    .rightSection {
+        margin-top: -10px;
+    }
+
+    .buttonContainer {
+        button {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    }
+
+}

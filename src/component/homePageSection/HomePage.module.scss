@@ -1,0 +1,27 @@
+@media (min-width:656px) {
+    .homeM {
+        display: none;
+    }
+}
+
+@media (max-width:655px) {
+    .homeW {
+        display: none;
+    }
+}
+
+.mySwiper {
+    margin-top: 4.8rem;
+}
+
+@media (max-width:1280px) {
+    .mySwiper {
+        margin-top: 5.5rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .mySwiper {
+        margin-top: 4.5rem;
+    }
+}

@@ -1,0 +1,51 @@
+.main {
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 100px;
+
+    h1 {
+        text-align: center;
+        font-size: clamp(14px, 5vw, 28px) !important;
+        font-weight: 700;
+        color: #a71e22;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+.right {
+    h2 {
+        font-size: clamp(11px, 4vw, 22px) !important;
+        font-weight: 700;
+        color: #a71e22;
+    }
+
+    ol {
+        li {
+            color: #a71e22;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+    }
+
+    li:hover {
+        color: #676767;
+    }
+}
+
+.h1 {
+    text-align: center;
+    font-size: clamp(14px, 5vw, 28px) !important;
+    font-weight: 700;
+    color: #a71e22;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width:760px) {
+    .main {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
