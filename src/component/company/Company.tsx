@@ -12,7 +12,7 @@ const Company = () => {
                 MP ENGINEERING
             </div>
             <p className={styles.subHead}>
-                M.P. ENGINEERING, situated in the heart of Gujarat's Vatva GIDC,
+                M.P. ENGINEERING, situated in the heart of Gujarat&apos; Vatva GIDC,
                 is dedicated to the precision design and manufacturing of top-tier
                 stainless steel and carbon steel equipment. Our expertise extends
                 to crafting Condensers, Receivers, Storage Tanks, Distillation
